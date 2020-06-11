@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-source ./venv/bin/activate
-python main.py
+source "$(dirname "$0")/venv/bin/activate"
+python "$(dirname "$0")/main.py"
